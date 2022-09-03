@@ -26,15 +26,9 @@ function toggleTheme() {
 
 ///// LOAD PAGES /////
 
-function loadHead() {
-    $("#head").load('head.html')
-}
 function loadNav() {
-    $("#fff").load('nav.html')
+    $("#nav").load('nav.html')
 }
 function loadLogin() {
     $("#main").load('login.html')
-}
-function loadTable() {
-    $("#main").load('table.html')
 }
