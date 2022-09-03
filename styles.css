@@ -20,6 +20,7 @@ body {
     border-bottom: 1px solid var(--color-border);
     height: 60px;
     display: flex;
+    justify-content: space-between
 }
 
 #logo-box {
@@ -49,6 +50,9 @@ body {
     border-left: 1px solid var(--color-border);
     width: 60px;
     height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .box {
@@ -59,7 +63,7 @@ body {
 }
 
 .material-icons {
-    font-size:32px;
+    font-size: 30px;
 }
 
 .icon-links:link {
