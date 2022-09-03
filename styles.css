@@ -16,7 +16,6 @@ body {
 
 #nav {
     background-color: var(--color-nav);
-    color: var(--color-text1);
     padding: 10px;
     border-bottom: 1px solid var(--color-border);
     height: 60px;
@@ -27,6 +26,7 @@ body {
 #logo {
     font-size: 16pt;
     font-weight: bold;
+    color: var(--color-text1);
 }
 
 #icons {
@@ -43,7 +43,7 @@ body {
 }
 
 .material-icons {
-    font-size:36px;
+    font-size:32px;
 }
 
 .icon-links:link {
@@ -67,12 +67,12 @@ body {
 .theme-dark {
     --color-background: #0c0d0e;
     --color-nav: #171a1c;
-    --color-border: grey;
-    --color-box: blue;
-    --color-text1: blue;
+    --color-border: #808080;
+    --color-box: #2f3337;
+    --color-text1: #4a86e8;
     --color-text2: blue;
     --color-text3: blue;
-    --color-icon-link: #d9d9d9;
+    --color-icon-link: red;
     --color-icon-visited: #d9d9d9;
     --color-icon-hover: #171a1c;
     --color-icon-active: var(--color-active);
@@ -86,7 +86,7 @@ body {
     --color-text1: blue;
     --color-text2: blue;
     --color-text3: blue;
-    --color-icon-link: #d9d9d9;
+    --color-icon-link: red;
     --color-icon-visited: #d9d9d9;
     --color-icon-hover: #171a1c;
     --color-icon-active: var(--color-active);
