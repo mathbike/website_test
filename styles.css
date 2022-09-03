@@ -17,11 +17,16 @@ body {
 
 #nav {
     background-color: var(--color-nav);
-    padding: 10px;
     border-bottom: 1px solid var(--color-border);
     height: 60px;
     display: flex;
     align-items: center;
+}
+
+#logo-box {
+    border: 2px solid red;
+    width: 300px;
+    height: 100%;
 }
 
 #logo {
@@ -74,28 +79,24 @@ code {
 
 /* SCROLL BAR */
 
-/* width */
-::-webkit-scrollbar {
+::-webkit-scrollbar { /* width */
     width: 5px;
 }
 
-::-webkit-scrollbar-corner {
+::-webkit-scrollbar-corner { /* corner */
     background: var(--color-box);
 }
 
-/* Track */
-::-webkit-scrollbar-track {
+::-webkit-scrollbar-track { /* track */
     background: var(--color-box);
 }
 
-/* Handle */
-::-webkit-scrollbar-thumb {
+::-webkit-scrollbar-thumb { /* Handle */
     background: var(--color-scrollbar);
     border-radius: 10px;
 }
 
-/* Handle on hover */
-::-webkit-scrollbar-thumb:hover {
+::-webkit-scrollbar-thumb:hover { /* Handle on hover */
     background: red;
     border-radius: 10px;
 }
