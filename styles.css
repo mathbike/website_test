@@ -24,9 +24,13 @@ body {
 }
 
 #logo {
-    font-size: 16pt;
+    font-size: 18pt;
+    font-family: "Courier New", monospace;
     font-weight: bold;
     color: var(--color-text1);
+    position: relative;
+    left: 10px;
+    top: 3px;
 }
 
 #icons {
@@ -51,7 +55,7 @@ body {
 }
 
 .icon-links:visited {
-    color: var(--color-icon-visited);
+    color: var(--color-icon-link);
 }
 
 .icon-links:hover {
@@ -72,10 +76,9 @@ body {
     --color-text1: #4a86e8;
     --color-text2: blue;
     --color-text3: blue;
-    --color-icon-link: red;
-    --color-icon-visited: #d9d9d9;
-    --color-icon-hover: #171a1c;
-    --color-icon-active: var(--color-active);
+    --color-icon-link: #a6a6a6;
+    --color-icon-hover: #808080;
+    --color-icon-active: #cccccc;
 }
 
 .theme-light {
@@ -87,7 +90,6 @@ body {
     --color-text2: blue;
     --color-text3: blue;
     --color-icon-link: red;
-    --color-icon-visited: #d9d9d9;
     --color-icon-hover: #171a1c;
     --color-icon-active: var(--color-active);
 }
