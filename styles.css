@@ -70,19 +70,19 @@ body {
     font-size: 26px;
 }
 
-.icon-links:link {
+.icons-links:link {
     color: var(--color-icon-link);
 }
 
-.icon-links:visited {
+.icons-links:visited {
     color: var(--color-icon-link);
 }
 
-.icon-links:hover {
+.icons-links:hover {
     color: var(--color-icon-hover);
 }
 
-.icon-links:active {
+.icons-links:active {
     color: var(--color-icon-active);
 }
 
