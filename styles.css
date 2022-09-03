@@ -43,7 +43,6 @@ body {
     margin: 10px;
     padding: 10px;
     border-radius: 6px;
-    border: 1px solid var(--color-border);
 }
 
 .material-icons {
@@ -68,7 +67,36 @@ body {
 
 code {
     font-family: 'JetBrains Mono';
-    font-size: 12pt;
+    font-size: 10pt;
+    overflow: scroll;
+}
+
+/* SCROLL BAR */
+
+/* /* width */
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+::-webkit-scrollbar-corner {
+    background: var(--color-box);
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: var(--color-box);
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: var(--color-scrollbar);
+    border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: red;
+    border-radius: 10px;
 }
 
 /* THEMES */
@@ -84,6 +112,7 @@ code {
     --color-icon-link: #a6a6a6;
     --color-icon-hover: #808080;
     --color-icon-active: #cccccc;
+    --color-scrollbar: #001f33;
 }
 
 .theme-light {
