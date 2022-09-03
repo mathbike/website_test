@@ -18,7 +18,20 @@ body {
     color: black;
     border-bottom: 1px solid gray;
     height: 60px;
+    display: flex;
+    align-items: center;
 }
+
+#logo {
+    font-size: 20pt;
+    font-weight: bold;
+}
+
+/* #icons {
+    display: flex;
+    align-items: center;
+    justify-content: right;
+} */
 
 .box {
     background-color: snow;
