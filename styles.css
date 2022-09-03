@@ -24,8 +24,8 @@ body {
 
 #logo-box {
     border-right: 1px solid var(--color-border);
-    border-bottom: 3px solid var(--color-text1);
-    width: 300px;
+    border-bottom: 2px solid var(--color-accent);
+    width: 250px;
     height: 100%;
     display: flex;
     align-items: center;
@@ -35,9 +35,9 @@ body {
     font-size: 18pt;
     font-family: "Courier New", monospace;
     font-weight: bold;
-    color: var(--color-text1);
+    color: var(--color-logo);
     position: relative;
-    left: 10px;
+    left: 20px;
     top: 3px;
 }
 
@@ -110,7 +110,8 @@ code {
     --color-nav: #171a1c;
     --color-border: #808080;
     --color-box: #1e1e1e;
-    --color-text1: #4a86e8; /* logo */
+    --color-logo: #4a86e8;
+    --color-accent: #b57917;
     --color-text2: #808080; /* title */
     --color-text3: #cccccc; /* text */
     --color-icon-link: #a6a6a6;
