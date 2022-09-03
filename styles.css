@@ -28,11 +28,8 @@ body {
 }
 
 #icons {
-    /* display: flex;
-    align-items: center;
-    justify-content: right; */
     position: absolute;
-    right: 0px;
+    right: 10px;
 }
 
 .box {
