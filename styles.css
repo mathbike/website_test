@@ -40,6 +40,39 @@ body {
     border: 1px solid gray;
 }
 
+.material-icons {
+    font-size:36px;
+}
+.icon-links:link {
+    color: var(--color-link);
+}
+.icon-links:visited {
+    color: var(--color-visited);
+}
+.icon-links:hover {
+    color: var(--color-hover);
+}
+.icon-links:active {
+    color: var(--color-active);
+}
+/* THEMES */
+.theme-dark {
+    --color-background: #0c0d0e;
+    --color-nav: #171a1c; /* 10 % lighter */
+    --color-link: #d9d9d9;
+    --color-visited: #d9d9d9;
+    --color-hover: #171a1c;
+    --color-active: var(--color-active);
+}
+.theme-light {
+    --color-background: #whitesmoke;
+    --color-nav: #d9d9d9;
+    --color-link: #0c0d0e;
+    --color-visited: #0c0d0e;
+    --color-hover: #171a1c;
+    --color-active: var(--color-active);
+}
+
 @media screen and (max-width: 480px) {
     #nav {
         background-color: aqua;
