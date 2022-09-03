@@ -3,9 +3,11 @@
     margin: 0px; /* Sets the margin to default to 0 for all elements */
     padding: 0px; /* Sets the padding to default to 0 for all elements */
 }
+
 :root { /* Selects the document's root element: <html> */
     background-color: #f2f2f2;
 }
+
 body {
     background-color: #f2f2f2;
     height: 100vh;
@@ -43,19 +45,25 @@ body {
 .material-icons {
     font-size:36px;
 }
+
 .icon-links:link {
     color: var(--color-link);
 }
+
 .icon-links:visited {
     color: var(--color-visited);
 }
+
 .icon-links:hover {
     color: var(--color-hover);
 }
+
 .icon-links:active {
     color: var(--color-active);
 }
+
 /* THEMES */
+
 .theme-dark {
     --color-background: #0c0d0e;
     --color-nav: #171a1c; /* 10 % lighter */
@@ -64,6 +72,7 @@ body {
     --color-hover: #171a1c;
     --color-active: var(--color-active);
 }
+
 .theme-light {
     --color-background: #whitesmoke;
     --color-nav: #d9d9d9;
@@ -72,6 +81,8 @@ body {
     --color-hover: #171a1c;
     --color-active: var(--color-active);
 }
+
+/* MEDIA */
 
 @media screen and (max-width: 480px) {
     #nav {
