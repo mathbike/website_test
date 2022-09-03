@@ -66,13 +66,18 @@ body {
     color: var(--color-icon-active);
 }
 
+code {
+    font-family: 'JetBrains Mono';
+    font-size: 12pt;
+}
+
 /* THEMES */
 
 .theme-dark {
     --color-background: #0c0d0e;
     --color-nav: #171a1c;
     --color-border: #808080;
-    --color-box: #2f3337;
+    --color-box: #1e1e1e;
     --color-text1: #4a86e8;
     --color-text2: blue;
     --color-text3: blue;
