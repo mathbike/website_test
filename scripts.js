@@ -32,3 +32,11 @@ function loadNav() {
 function loadLogin() {
     $("#main").load('login.html')
 }
+
+// highlight selected page
+function addSelected() {
+    $(".icon-links").click(function(event){
+        $(".icons-box").removeClass("icons-box");
+        $(".icons-box").addClass(".icons-box-selected");
+    })
+}

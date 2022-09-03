@@ -55,6 +55,10 @@ body {
     align-items: center;
 }
 
+.icons-box.selected {
+    border-bottom: 2px solid var(--color-accent);
+}
+
 .box {
     background-color: var(--color-box);
     margin: 20px;
