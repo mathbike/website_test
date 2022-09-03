@@ -27,11 +27,13 @@ body {
     font-weight: bold;
 }
 
-/* #icons {
-    display: flex;
+#icons {
+    /* display: flex;
     align-items: center;
-    justify-content: right;
-} */
+    justify-content: right; */
+    position: absolute;
+    right: 0px;
+}
 
 .box {
     background-color: snow;
