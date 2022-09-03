@@ -5,19 +5,19 @@
 }
 
 :root { /* Selects the document's root element: <html> */
-    background-color: #f2f2f2;
+    background-color: var(--color-background);
 }
 
 body {
-    background-color: #f2f2f2;
+    background-color: var(--color-background);
     height: 100vh;
     width: 100%;
 }
 
 #nav {
-    background-color: snow;
+    background-color: var(--color-nav);
     padding: 10px;
-    color: black;
+    color: var(--color-text1);
     border-bottom: 1px solid gray;
     height: 60px;
     display: flex;
@@ -25,7 +25,7 @@ body {
 }
 
 #logo {
-    font-size: 20pt;
+    font-size: 16pt;
     font-weight: bold;
 }
 
@@ -35,11 +35,11 @@ body {
 }
 
 .box {
-    background-color: snow;
+    background-color: var(--color-box);
     margin: 10px;
     padding: 10px;
     border-radius: 6px;
-    border: 1px solid gray;
+    border: 1px solid var(--color-box);
 }
 
 .material-icons {
@@ -47,39 +47,49 @@ body {
 }
 
 .icon-links:link {
-    color: var(--color-link);
+    color: var(--color-icon-link);
 }
 
 .icon-links:visited {
-    color: var(--color-visited);
+    color: var(--color-icon-visited);
 }
 
 .icon-links:hover {
-    color: var(--color-hover);
+    color: var(--color-icon-hover);
 }
 
 .icon-links:active {
-    color: var(--color-active);
+    color: var(--color-icon-active);
 }
 
 /* THEMES */
 
 .theme-dark {
     --color-background: #0c0d0e;
-    --color-nav: #171a1c; /* 10 % lighter */
-    --color-link: #d9d9d9;
-    --color-visited: #d9d9d9;
-    --color-hover: #171a1c;
-    --color-active: var(--color-active);
+    --color-nav: #171a1c;
+    --color-border: grey;
+    --color-box: blue;
+    --color-text1: blue;
+    --color-text2: blue;
+    --color-text3: blue;
+    --color-icon-link: #d9d9d9;
+    --color-icon-visited: #d9d9d9;
+    --color-icon-hover: #171a1c;
+    --color-icon-active: var(--color-active);
 }
 
 .theme-light {
     --color-background: #whitesmoke;
     --color-nav: #d9d9d9;
-    --color-link: #0c0d0e;
-    --color-visited: #0c0d0e;
-    --color-hover: #171a1c;
-    --color-active: var(--color-active);
+    --color-border: blue;
+    --color-box: blue;
+    --color-text1: blue;
+    --color-text2: blue;
+    --color-text3: blue;
+    --color-icon-link: #d9d9d9;
+    --color-icon-visited: #d9d9d9;
+    --color-icon-hover: #171a1c;
+    --color-icon-active: var(--color-active);
 }
 
 /* MEDIA */
