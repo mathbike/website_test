@@ -13,9 +13,10 @@ body {
 }
 
 #nav {
-    background-color: #171a1c;
     padding: 20px;
     color: #d9d9d9;
+    color: black;
+    box-shadow: 5px 5px 5px black;
 }
 
 .box {
@@ -24,6 +25,7 @@ body {
     padding: 10px;
     /* border: 2px solid red; */
     border-radius: 8px;
+    box-shadow: 2px 2px 2px 2px black;
 }
 
 @media screen and (max-width: 480px) {
