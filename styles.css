@@ -63,7 +63,7 @@ body {
 }
 
 .material-icons {
-    font-size: 30px;
+    font-size: 26px;
 }
 
 .icon-links:link {
@@ -80,6 +80,16 @@ body {
 
 .icon-links:active {
     color: var(--color-icon-active);
+}
+
+.tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    padding: 5px 0;
+    border-radius: 6px;
 }
 
 code {
