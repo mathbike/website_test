@@ -12,6 +12,7 @@ body {
     background-color: var(--color-background);
     height: 100vh;
     width: 100%;
+    color: var(--color-text3);
 }
 
 #nav {
@@ -106,9 +107,9 @@ code {
     --color-nav: #171a1c;
     --color-border: #808080;
     --color-box: #1e1e1e;
-    --color-text1: #4a86e8;
-    --color-text2: blue;
-    --color-text3: blue;
+    --color-text1: #4a86e8; /* logo */
+    --color-text2: #808080; /* title */
+    --color-text3: #cccccc; /* text */
     --color-icon-link: #a6a6a6;
     --color-icon-hover: #808080;
     --color-icon-active: #cccccc;
