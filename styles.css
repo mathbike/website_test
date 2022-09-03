@@ -42,8 +42,13 @@ body {
 }
 
 #icons {
-    position: absolute;
-    right: 10px;
+    display: flex;
+}
+
+.icons-box {
+    border-left: 1px solid var(--color-border);
+    width: 60px;
+    height: 100%;
 }
 
 .box {
