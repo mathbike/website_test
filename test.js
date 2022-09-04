@@ -9,4 +9,5 @@ $(function() {
 });
 
 let currentURL = location.href
-console.log(currentURL)
+
+console.log(location.href);
