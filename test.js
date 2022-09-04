@@ -8,6 +8,6 @@ $(function() {
     }
 });
 
-let currentURL = location.href
+let currentURL = location.href;
 
 console.log(location.href);
