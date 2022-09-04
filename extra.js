@@ -29,4 +29,8 @@ console.log(items[0]);
 items[0].textContent = 'Hello';
 items[0].style.fontWeight = 'bold';
 items[0].style.backgroundColor = 'yellow';
-
+// loop through all items in list and change background color:
+// set i to 0, as long as i is less than list length, incerement i by 1
+for(var i = 0; i < items.length; i++) {
+    items[i].style.backgroundColor = '#000';
+}
