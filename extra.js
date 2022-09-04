@@ -19,4 +19,7 @@ headerTitle.textContent = 'Hello'
 headerTitle.innerText = 'Hello'
 // insert html into element
 headerTitle.innerHTML = '<h3>Hello<h3>'
+// change style
+headerTitle.style.borderBottom = 'solid 3px #000'
+
 
