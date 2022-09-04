@@ -86,6 +86,10 @@ body {
     color: var(--color-icon-active);
 }
 
+#table {
+    text-align: center;
+}
+
 code {
     font-family: 'JetBrains Mono';
     font-size: 10pt;

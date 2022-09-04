@@ -32,6 +32,9 @@ function loadNav() {
 function loadLogin() {
     $("#main").load('login.html')
 }
+function loadTable() {
+    $("#table").load('table.html')
+}
 
 
 function addSelected() {
