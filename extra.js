@@ -34,3 +34,9 @@ items[0].style.backgroundColor = 'yellow';
 for(var i = 0; i < items.length; i++) {
     items[i].style.backgroundColor = '#000';
 }
+
+// QUERY SELECTOR
+// if more than one on page will get the first one
+var header = document.querySelector('#main-header');
+header.style.borderBottom = 'solid 4px #000'
+
