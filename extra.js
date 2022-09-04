@@ -12,14 +12,21 @@ document.URL = 'newURL'
 // GET ELEMENT BY ID
 console.log(document.getElementById('header-title'));
 // define variable
-var headerTitle = document.getElementById('header-title')
+var headerTitle = document.getElementById('header-title');
 // change the text
-headerTitle.textContent = 'Hello'
+headerTitle.textContent = 'Hello';
 // change the text (paying attention to styling)
-headerTitle.innerText = 'Hello'
+headerTitle.innerText = 'Hello';
 // insert html into element
-headerTitle.innerHTML = '<h3>Hello<h3>'
+headerTitle.innerHTML = '<h3>Hello<h3>';
 // change style
-headerTitle.style.borderBottom = 'solid 3px #000'
+headerTitle.style.borderBottom = 'solid 3px #000';
 
+// GET ELEMENT BY CLASS NAME
+var items = document.getElementsByClassName('list-group-items');
+console.log(items);
+console.log(items[0]);
+items[0].textContent = 'Hello';
+items[0].style.fontWeight = 'bold';
+items[0].style.backgroundColor = 'yellow';
 
