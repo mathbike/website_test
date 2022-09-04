@@ -42,9 +42,6 @@ function addSelected() {
     });
 }
 
-let currentURL = location.href
-console.log(currentURL)
-
 $(function() {
     let currentURL = location.href;
     
